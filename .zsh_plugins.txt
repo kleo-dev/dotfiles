@@ -1,0 +1,73 @@
+romkatv/zsh-defer kind:clone 
+# defered plugins
+
+
+# git hub repos
+mafredri/zsh-async
+zpm-zsh/ls
+Freed-Wu/zsh-help
+MichaelAquilina/zsh-you-should-use
+zpm-zsh/undollar
+zpm-zsh/mysql-colorize
+caarlos0/zsh-pg
+reegnz/jq-zsh-plugin
+
+
+## oh my zsh plugins
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/brew
+ohmyzsh/ohmyzsh path:plugins/bun
+ohmyzsh/ohmyzsh path:plugins/command-not-found
+ohmyzsh/ohmyzsh path:plugins/docker
+ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/encode64
+ohmyzsh/ohmyzsh path:plugins/fzf
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/gradle kind:defer
+ohmyzsh/ohmyzsh path:plugins/mongocli
+ohmyzsh/ohmyzsh path:plugins/macos
+ohmyzsh/ohmyzsh path:plugins/mise
+ohmyzsh/ohmyzsh path:plugins/nmap
+ohmyzsh/ohmyzsh path:plugins/npm
+ohmyzsh/ohmyzsh path:plugins/pip
+ohmyzsh/ohmyzsh path:plugins/postgres 
+ohmyzsh/ohmyzsh path:plugins/python
+ohmyzsh/ohmyzsh path:plugins/tmux kind:defer
+ohmyzsh/ohmyzsh path:plugins/wp-cli kind:defer
+ohmyzsh/ohmyzsh path:plugins/yarn
+ohmyzsh/ohmyzsh path:plugins/zoxide
+
+
+
+
+
+
+
+
+#theme
+romkatv/powerlevel10k kind:fpath
+
+
+
+
+zdharma-continuum/fast-syntax-highlighting kind:defer
+zsh-users/zsh-autosuggestions kind:defer
+Aloxaf/fzf-tab kind:defer
+Freed-Wu/fzf-tab-source kind:defer
+hlissner/zsh-autopair kind:defer
+unixorn/warhol.plugin.zsh kind:defer
+
+
+
+
+# completions
+MenkeTechnologies/zsh-more-completions
+
+
+
+# save this for a reference
+# https://getantidote.github.io/
+# local plugins
+#~/foo/bar
+#$ZDOTDIR/foo/bar
+#$ZDOTDIR/foo/bar path:baz
